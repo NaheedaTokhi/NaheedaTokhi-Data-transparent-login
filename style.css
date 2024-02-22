@@ -1,0 +1,49 @@
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(./mömax3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /*background-position: center;
+    background-repeat: no-repeat;*/
+}
+h1{
+    border-bottom: 5px solid greenyellow;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.login{
+    width:400px;
+    margin:auto;
+}
+ input{
+    border: none;
+    border-bottom: 2px solid greenyellow;
+    background-color: transparent;
+    width:400px;
+}
+.email, .password{
+    padding-top: 40px;
+}
+
+button{
+    margin: 40px auto; 
+    border:3px solid greenyellow;
+    width:150px;
+    height:40px;
+    background-color:transparent;
+    color: white;
+    
+}
+/*#email::before{
+    font-family:"font Awesome 6 Free";
+    content:"\40";
+}*/
+input::placeholder{
+    color:white;
+    font-weight: 800;
+}
+.fa-solid{
+    color:white;
+}
